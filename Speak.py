@@ -37,6 +37,7 @@ def stuff():
             say_smth('Searching Wikipedia...')
             try:
                 result = wikipedia.summary(query, sentences=5)
+                print('According to wikipedia')
                 say_smth('According to Wikipedia')
                 print(result)
                 say_smth(result)
